@@ -53,6 +53,8 @@ typedef NS_ENUM(NSInteger, MoveSlope) {
         _canDraggableDirection = YSLDraggableDirectionLeft | YSLDraggableDirectionLeft;
     }
     return self;
+    
+    
 }
 
 - (void)setUp
