@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E962ADA71D92587C00CA56BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E962ADA61D92587C00CA56BC /* main.m */; };
+		E962ADAA1D92587C00CA56BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E962ADA91D92587C00CA56BC /* AppDelegate.m */; };
+		E962ADAD1D92587C00CA56BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E962ADAC1D92587C00CA56BC /* ViewController.m */; };
+		E962ADB01D92587C00CA56BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E962ADAE1D92587C00CA56BC /* Main.storyboard */; };
+		E962ADB21D92587C00CA56BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E962ADB11D92587C00CA56BC /* Assets.xcassets */; };
+		E962ADB51D92587C00CA56BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E962ADB31D92587C00CA56BC /* LaunchScreen.storyboard */; };
+		E962ADC01D92587C00CA56BC /* YSLDraggableCardContainer_UndoSwipeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E962ADBF1D92587C00CA56BC /* YSLDraggableCardContainer_UndoSwipeTests.m */; };
+		E962ADCB1D92587C00CA56BC /* YSLDraggableCardContainer_UndoSwipeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E962ADCA1D92587C00CA56BC /* YSLDraggableCardContainer_UndoSwipeUITests.m */; };
+		E962ADDD1D92590900CA56BC /* YSLCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E962ADDA1D92590900CA56BC /* YSLCardView.m */; };
+		E962ADDE1D92590900CA56BC /* YSLDraggableCardContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = E962ADDC1D92590900CA56BC /* YSLDraggableCardContainer.m */; };
+		E962ADE11D92597600CA56BC /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E962ADE01D92597600CA56BC /* CardView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E962ADBC1D92587C00CA56BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E962AD9A1D92587C00CA56BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E962ADA11D92587C00CA56BC;
+			remoteInfo = "YSLDraggableCardContainer-UndoSwipe";
+		};
+		E962ADC71D92587C00CA56BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E962AD9A1D92587C00CA56BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E962ADA11D92587C00CA56BC;
+			remoteInfo = "YSLDraggableCardContainer-UndoSwipe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E962ADA21D92587C00CA56BC /* YSLDraggableCardContainer-UndoSwipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YSLDraggableCardContainer-UndoSwipe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E962ADA61D92587C00CA56BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E962ADA81D92587C00CA56BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E962ADA91D92587C00CA56BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E962ADAB1D92587C00CA56BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E962ADAC1D92587C00CA56BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E962ADAF1D92587C00CA56BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E962ADB11D92587C00CA56BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E962ADB41D92587C00CA56BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E962ADB61D92587C00CA56BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E962ADBB1D92587C00CA56BC /* YSLDraggableCardContainer-UndoSwipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YSLDraggableCardContainer-UndoSwipeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E962ADBF1D92587C00CA56BC /* YSLDraggableCardContainer_UndoSwipeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSLDraggableCardContainer_UndoSwipeTests.m; sourceTree = "<group>"; };
+		E962ADC11D92587C00CA56BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E962ADC61D92587C00CA56BC /* YSLDraggableCardContainer-UndoSwipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YSLDraggableCardContainer-UndoSwipeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E962ADCA1D92587C00CA56BC /* YSLDraggableCardContainer_UndoSwipeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSLDraggableCardContainer_UndoSwipeUITests.m; sourceTree = "<group>"; };
+		E962ADCC1D92587C00CA56BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E962ADD91D92590900CA56BC /* YSLCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLCardView.h; sourceTree = "<group>"; };
+		E962ADDA1D92590900CA56BC /* YSLCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLCardView.m; sourceTree = "<group>"; };
+		E962ADDB1D92590900CA56BC /* YSLDraggableCardContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLDraggableCardContainer.h; sourceTree = "<group>"; };
+		E962ADDC1D92590900CA56BC /* YSLDraggableCardContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLDraggableCardContainer.m; sourceTree = "<group>"; };
+		E962ADDF1D92597600CA56BC /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardView.h; path = YSLDraggableCardContainer/CardView.h; sourceTree = "<group>"; };
+		E962ADE01D92597600CA56BC /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardView.m; path = YSLDraggableCardContainer/CardView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E962AD9F1D92587C00CA56BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E962ADB81D92587C00CA56BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E962ADC31D92587C00CA56BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E962AD991D92587C00CA56BC = {
+			isa = PBXGroup;
+			children = (
+				E962ADA41D92587C00CA56BC /* YSLDraggableCardContainer-UndoSwipe */,
+				E962ADBE1D92587C00CA56BC /* YSLDraggableCardContainer-UndoSwipeTests */,
+				E962ADC91D92587C00CA56BC /* YSLDraggableCardContainer-UndoSwipeUITests */,
+				E962ADA31D92587C00CA56BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E962ADA31D92587C00CA56BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E962ADA21D92587C00CA56BC /* YSLDraggableCardContainer-UndoSwipe.app */,
+				E962ADBB1D92587C00CA56BC /* YSLDraggableCardContainer-UndoSwipeTests.xctest */,
+				E962ADC61D92587C00CA56BC /* YSLDraggableCardContainer-UndoSwipeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E962ADA41D92587C00CA56BC /* YSLDraggableCardContainer-UndoSwipe */ = {
+			isa = PBXGroup;
+			children = (
+				E962ADD81D92590900CA56BC /* YSLDraggableCardContainer */,
+				E962ADDF1D92597600CA56BC /* CardView.h */,
+				E962ADE01D92597600CA56BC /* CardView.m */,
+				E962ADA81D92587C00CA56BC /* AppDelegate.h */,
+				E962ADA91D92587C00CA56BC /* AppDelegate.m */,
+				E962ADAB1D92587C00CA56BC /* ViewController.h */,
+				E962ADAC1D92587C00CA56BC /* ViewController.m */,
+				E962ADAE1D92587C00CA56BC /* Main.storyboard */,
+				E962ADB11D92587C00CA56BC /* Assets.xcassets */,
+				E962ADB31D92587C00CA56BC /* LaunchScreen.storyboard */,
+				E962ADB61D92587C00CA56BC /* Info.plist */,
+				E962ADA51D92587C00CA56BC /* Supporting Files */,
+			);
+			path = "YSLDraggableCardContainer-UndoSwipe";
+			sourceTree = "<group>";
+		};
+		E962ADA51D92587C00CA56BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E962ADA61D92587C00CA56BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E962ADBE1D92587C00CA56BC /* YSLDraggableCardContainer-UndoSwipeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E962ADBF1D92587C00CA56BC /* YSLDraggableCardContainer_UndoSwipeTests.m */,
+				E962ADC11D92587C00CA56BC /* Info.plist */,
+			);
+			path = "YSLDraggableCardContainer-UndoSwipeTests";
+			sourceTree = "<group>";
+		};
+		E962ADC91D92587C00CA56BC /* YSLDraggableCardContainer-UndoSwipeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E962ADCA1D92587C00CA56BC /* YSLDraggableCardContainer_UndoSwipeUITests.m */,
+				E962ADCC1D92587C00CA56BC /* Info.plist */,
+			);
+			path = "YSLDraggableCardContainer-UndoSwipeUITests";
+			sourceTree = "<group>";
+		};
+		E962ADD81D92590900CA56BC /* YSLDraggableCardContainer */ = {
+			isa = PBXGroup;
+			children = (
+				E962ADD91D92590900CA56BC /* YSLCardView.h */,
+				E962ADDA1D92590900CA56BC /* YSLCardView.m */,
+				E962ADDB1D92590900CA56BC /* YSLDraggableCardContainer.h */,
+				E962ADDC1D92590900CA56BC /* YSLDraggableCardContainer.m */,
+			);
+			path = YSLDraggableCardContainer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E962ADA11D92587C00CA56BC /* YSLDraggableCardContainer-UndoSwipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E962ADCF1D92587C00CA56BC /* Build configuration list for PBXNativeTarget "YSLDraggableCardContainer-UndoSwipe" */;
+			buildPhases = (
+				E962AD9E1D92587C00CA56BC /* Sources */,
+				E962AD9F1D92587C00CA56BC /* Frameworks */,
+				E962ADA01D92587C00CA56BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YSLDraggableCardContainer-UndoSwipe";
+			productName = "YSLDraggableCardContainer-UndoSwipe";
+			productReference = E962ADA21D92587C00CA56BC /* YSLDraggableCardContainer-UndoSwipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E962ADBA1D92587C00CA56BC /* YSLDraggableCardContainer-UndoSwipeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E962ADD21D92587C00CA56BC /* Build configuration list for PBXNativeTarget "YSLDraggableCardContainer-UndoSwipeTests" */;
+			buildPhases = (
+				E962ADB71D92587C00CA56BC /* Sources */,
+				E962ADB81D92587C00CA56BC /* Frameworks */,
+				E962ADB91D92587C00CA56BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E962ADBD1D92587C00CA56BC /* PBXTargetDependency */,
+			);
+			name = "YSLDraggableCardContainer-UndoSwipeTests";
+			productName = "YSLDraggableCardContainer-UndoSwipeTests";
+			productReference = E962ADBB1D92587C00CA56BC /* YSLDraggableCardContainer-UndoSwipeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E962ADC51D92587C00CA56BC /* YSLDraggableCardContainer-UndoSwipeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E962ADD51D92587C00CA56BC /* Build configuration list for PBXNativeTarget "YSLDraggableCardContainer-UndoSwipeUITests" */;
+			buildPhases = (
+				E962ADC21D92587C00CA56BC /* Sources */,
+				E962ADC31D92587C00CA56BC /* Frameworks */,
+				E962ADC41D92587C00CA56BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E962ADC81D92587C00CA56BC /* PBXTargetDependency */,
+			);
+			name = "YSLDraggableCardContainer-UndoSwipeUITests";
+			productName = "YSLDraggableCardContainer-UndoSwipeUITests";
+			productReference = E962ADC61D92587C00CA56BC /* YSLDraggableCardContainer-UndoSwipeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E962AD9A1D92587C00CA56BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ABCoder;
+				TargetAttributes = {
+					E962ADA11D92587C00CA56BC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E962ADBA1D92587C00CA56BC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E962ADA11D92587C00CA56BC;
+					};
+					E962ADC51D92587C00CA56BC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E962ADA11D92587C00CA56BC;
+					};
+				};
+			};
+			buildConfigurationList = E962AD9D1D92587C00CA56BC /* Build configuration list for PBXProject "YSLDraggableCardContainer-UndoSwipe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E962AD991D92587C00CA56BC;
+			productRefGroup = E962ADA31D92587C00CA56BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E962ADA11D92587C00CA56BC /* YSLDraggableCardContainer-UndoSwipe */,
+				E962ADBA1D92587C00CA56BC /* YSLDraggableCardContainer-UndoSwipeTests */,
+				E962ADC51D92587C00CA56BC /* YSLDraggableCardContainer-UndoSwipeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E962ADA01D92587C00CA56BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E962ADB51D92587C00CA56BC /* LaunchScreen.storyboard in Resources */,
+				E962ADB21D92587C00CA56BC /* Assets.xcassets in Resources */,
+				E962ADB01D92587C00CA56BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E962ADB91D92587C00CA56BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E962ADC41D92587C00CA56BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E962AD9E1D92587C00CA56BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E962ADE11D92597600CA56BC /* CardView.m in Sources */,
+				E962ADAD1D92587C00CA56BC /* ViewController.m in Sources */,
+				E962ADDD1D92590900CA56BC /* YSLCardView.m in Sources */,
+				E962ADAA1D92587C00CA56BC /* AppDelegate.m in Sources */,
+				E962ADDE1D92590900CA56BC /* YSLDraggableCardContainer.m in Sources */,
+				E962ADA71D92587C00CA56BC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E962ADB71D92587C00CA56BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E962ADC01D92587C00CA56BC /* YSLDraggableCardContainer_UndoSwipeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E962ADC21D92587C00CA56BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E962ADCB1D92587C00CA56BC /* YSLDraggableCardContainer_UndoSwipeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E962ADBD1D92587C00CA56BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E962ADA11D92587C00CA56BC /* YSLDraggableCardContainer-UndoSwipe */;
+			targetProxy = E962ADBC1D92587C00CA56BC /* PBXContainerItemProxy */;
+		};
+		E962ADC81D92587C00CA56BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E962ADA11D92587C00CA56BC /* YSLDraggableCardContainer-UndoSwipe */;
+			targetProxy = E962ADC71D92587C00CA56BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E962ADAE1D92587C00CA56BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E962ADAF1D92587C00CA56BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E962ADB31D92587C00CA56BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E962ADB41D92587C00CA56BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E962ADCD1D92587C00CA56BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E962ADCE1D92587C00CA56BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E962ADD01D92587C00CA56BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "YSLDraggableCardContainer-UndoSwipe/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dipankar.ysl.undoswipe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E962ADD11D92587C00CA56BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "YSLDraggableCardContainer-UndoSwipe/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dipankar.ysl.undoswipe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E962ADD31D92587C00CA56BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "YSLDraggableCardContainer-UndoSwipeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dipankar.undoswipe.YSLDraggableCardContainer-UndoSwipeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YSLDraggableCardContainer-UndoSwipe.app/YSLDraggableCardContainer-UndoSwipe";
+			};
+			name = Debug;
+		};
+		E962ADD41D92587C00CA56BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "YSLDraggableCardContainer-UndoSwipeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dipankar.undoswipe.YSLDraggableCardContainer-UndoSwipeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YSLDraggableCardContainer-UndoSwipe.app/YSLDraggableCardContainer-UndoSwipe";
+			};
+			name = Release;
+		};
+		E962ADD61D92587C00CA56BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "YSLDraggableCardContainer-UndoSwipeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dipankar.undoswipe.YSLDraggableCardContainer-UndoSwipeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "YSLDraggableCardContainer-UndoSwipe";
+			};
+			name = Debug;
+		};
+		E962ADD71D92587C00CA56BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "YSLDraggableCardContainer-UndoSwipeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dipankar.undoswipe.YSLDraggableCardContainer-UndoSwipeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "YSLDraggableCardContainer-UndoSwipe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E962AD9D1D92587C00CA56BC /* Build configuration list for PBXProject "YSLDraggableCardContainer-UndoSwipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E962ADCD1D92587C00CA56BC /* Debug */,
+				E962ADCE1D92587C00CA56BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E962ADCF1D92587C00CA56BC /* Build configuration list for PBXNativeTarget "YSLDraggableCardContainer-UndoSwipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E962ADD01D92587C00CA56BC /* Debug */,
+				E962ADD11D92587C00CA56BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E962ADD21D92587C00CA56BC /* Build configuration list for PBXNativeTarget "YSLDraggableCardContainer-UndoSwipeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E962ADD31D92587C00CA56BC /* Debug */,
+				E962ADD41D92587C00CA56BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E962ADD51D92587C00CA56BC /* Build configuration list for PBXNativeTarget "YSLDraggableCardContainer-UndoSwipeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E962ADD61D92587C00CA56BC /* Debug */,
+				E962ADD71D92587C00CA56BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E962AD9A1D92587C00CA56BC /* Project object */;
+}
