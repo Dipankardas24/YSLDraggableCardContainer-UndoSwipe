@@ -125,7 +125,7 @@
 
 - (void)cardContainderView:(YSLDraggableCardContainer *)cardContainderView updatePositionWithDraggableView:(UIView *)draggableView draggableDirection:(YSLDraggableDirection)draggableDirection widthRatio:(CGFloat)widthRatio heightRatio:(CGFloat)heightRatio
 {
-    CardView *view = (CardView *)draggableView;
+    /*CardView *view = (CardView *)draggableView;
     
     if (draggableDirection == YSLDraggableDirectionDefault) {
         view.selectedView.alpha = 0;
@@ -144,7 +144,7 @@
     if (draggableDirection == YSLDraggableDirectionUp) {
         view.selectedView.backgroundColor = RGB(66, 172, 225);
         view.selectedView.alpha = heightRatio > 0.8 ? 0.8 : heightRatio;
-    }
+    }*/
 }
 
 - (void)cardContainerViewDidCompleteAll:(YSLDraggableCardContainer *)container;

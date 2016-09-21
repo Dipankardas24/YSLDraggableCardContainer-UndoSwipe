@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9482A141D928070001FED5F /* photo_sample_01.png in Resources */ = {isa = PBXBuildFile; fileRef = E9482A0D1D928070001FED5F /* photo_sample_01.png */; };
+		E9482A151D928070001FED5F /* photo_sample_02.png in Resources */ = {isa = PBXBuildFile; fileRef = E9482A0E1D928070001FED5F /* photo_sample_02.png */; };
+		E9482A161D928070001FED5F /* photo_sample_03.png in Resources */ = {isa = PBXBuildFile; fileRef = E9482A0F1D928070001FED5F /* photo_sample_03.png */; };
+		E9482A171D928070001FED5F /* photo_sample_04.png in Resources */ = {isa = PBXBuildFile; fileRef = E9482A101D928070001FED5F /* photo_sample_04.png */; };
+		E9482A181D928070001FED5F /* photo_sample_05.png in Resources */ = {isa = PBXBuildFile; fileRef = E9482A111D928070001FED5F /* photo_sample_05.png */; };
+		E9482A191D928070001FED5F /* photo_sample_06.png in Resources */ = {isa = PBXBuildFile; fileRef = E9482A121D928070001FED5F /* photo_sample_06.png */; };
+		E9482A1A1D928070001FED5F /* photo_sample_07.png in Resources */ = {isa = PBXBuildFile; fileRef = E9482A131D928070001FED5F /* photo_sample_07.png */; };
 		E962ADA71D92587C00CA56BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E962ADA61D92587C00CA56BC /* main.m */; };
 		E962ADAA1D92587C00CA56BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E962ADA91D92587C00CA56BC /* AppDelegate.m */; };
 		E962ADAD1D92587C00CA56BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E962ADAC1D92587C00CA56BC /* ViewController.m */; };
@@ -38,6 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E9482A0D1D928070001FED5F /* photo_sample_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_sample_01.png; sourceTree = "<group>"; };
+		E9482A0E1D928070001FED5F /* photo_sample_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_sample_02.png; sourceTree = "<group>"; };
+		E9482A0F1D928070001FED5F /* photo_sample_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_sample_03.png; sourceTree = "<group>"; };
+		E9482A101D928070001FED5F /* photo_sample_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_sample_04.png; sourceTree = "<group>"; };
+		E9482A111D928070001FED5F /* photo_sample_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_sample_05.png; sourceTree = "<group>"; };
+		E9482A121D928070001FED5F /* photo_sample_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_sample_06.png; sourceTree = "<group>"; };
+		E9482A131D928070001FED5F /* photo_sample_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_sample_07.png; sourceTree = "<group>"; };
 		E962ADA21D92587C00CA56BC /* YSLDraggableCardContainer-UndoSwipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YSLDraggableCardContainer-UndoSwipe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E962ADA61D92587C00CA56BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E962ADA81D92587C00CA56BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -87,6 +101,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E9482A0C1D928070001FED5F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9482A0D1D928070001FED5F /* photo_sample_01.png */,
+				E9482A0E1D928070001FED5F /* photo_sample_02.png */,
+				E9482A0F1D928070001FED5F /* photo_sample_03.png */,
+				E9482A101D928070001FED5F /* photo_sample_04.png */,
+				E9482A111D928070001FED5F /* photo_sample_05.png */,
+				E9482A121D928070001FED5F /* photo_sample_06.png */,
+				E9482A131D928070001FED5F /* photo_sample_07.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		E962AD991D92587C00CA56BC = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +149,7 @@
 				E962ADB11D92587C00CA56BC /* Assets.xcassets */,
 				E962ADB31D92587C00CA56BC /* LaunchScreen.storyboard */,
 				E962ADB61D92587C00CA56BC /* Info.plist */,
+				E9482A0C1D928070001FED5F /* Resources */,
 				E962ADA51D92587C00CA56BC /* Supporting Files */,
 			);
 			path = "YSLDraggableCardContainer-UndoSwipe";
@@ -266,9 +295,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9482A171D928070001FED5F /* photo_sample_04.png in Resources */,
+				E9482A1A1D928070001FED5F /* photo_sample_07.png in Resources */,
 				E962ADB51D92587C00CA56BC /* LaunchScreen.storyboard in Resources */,
+				E9482A151D928070001FED5F /* photo_sample_02.png in Resources */,
+				E9482A141D928070001FED5F /* photo_sample_01.png in Resources */,
 				E962ADB21D92587C00CA56BC /* Assets.xcassets in Resources */,
+				E9482A191D928070001FED5F /* photo_sample_06.png in Resources */,
+				E9482A181D928070001FED5F /* photo_sample_05.png in Resources */,
 				E962ADB01D92587C00CA56BC /* Main.storyboard in Resources */,
+				E9482A161D928070001FED5F /* photo_sample_03.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +558,7 @@
 				E962ADD11D92587C00CA56BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E962ADD21D92587C00CA56BC /* Build configuration list for PBXNativeTarget "YSLDraggableCardContainer-UndoSwipeTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +567,7 @@
 				E962ADD41D92587C00CA56BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E962ADD51D92587C00CA56BC /* Build configuration list for PBXNativeTarget "YSLDraggableCardContainer-UndoSwipeUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +576,7 @@
 				E962ADD71D92587C00CA56BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
